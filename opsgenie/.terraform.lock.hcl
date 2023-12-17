@@ -3,7 +3,7 @@
 
 provider "registry.terraform.io/opsgenie/opsgenie" {
   version     = "0.6.34"
-  constraints = ">= 0.6.0"
+  constraints = "0.6.34"
   hashes = [
     "h1:z8RyOmIEtKlcqeSryDICCkyGxaYuXD7TDvO2h50MUsU=",
     "zh:1416e5428eed348a22e65d8abd259db66b7fda4bdf697cd91a09dd49fcd3f439",

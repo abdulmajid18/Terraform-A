@@ -8,5 +8,4 @@ variable "opsgenie_api_url" {
     type = string
     description = "OpsGenie Api Url"
     default = "api.opsgenie.com"
-    sensitive = true
 }
