@@ -1,18 +1,18 @@
 variable "aws_access_key" {
-  type = string
+  type        = string
   description = "AWS Access key"
 }
 
 variable "aws_secret_key" {
-  type = string
+  type        = string
   description = "AWS Secret key"
-  sensitive = true
+  sensitive   = true
 }
 
 variable "aws_region" {
-    type = string
-    description = "AWS region to use for resource"
-    default = "us-east-1"
+  type        = string
+  description = "AWS region to use for resource"
+  default     = "us-east-1"
 }
 
 variable "instance_type" {
