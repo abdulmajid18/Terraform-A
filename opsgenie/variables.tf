@@ -9,3 +9,9 @@ variable "opsgenie_api_url" {
     description = "OpsGenie Api Url"
     default = "api.opsgenie.com"
 }
+
+variable "scom_enabled" {
+  description = "If set to true, don't recreate a scom integration"
+  type = bool
+  default = true
+}

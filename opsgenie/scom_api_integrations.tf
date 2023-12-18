@@ -1,4 +1,5 @@
 resource "opsgenie_api_integration" "scom_integration" {
+  count = var.scom_enabled ? 1 : 0
   name = "SCOM Integration"
   type = "SCOM"
 
@@ -7,7 +8,7 @@ resource "opsgenie_api_integration" "scom_integration" {
     id   = "${opsgenie_user.ross.id}"
   }
 
-  enabled                        = false
+  enabled                        = true
   allow_write_access             = true
   ignore_responders_from_payload = true
   suppress_notifications         = true

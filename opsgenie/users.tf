@@ -5,7 +5,6 @@ resource "opsgenie_user" "nuhu" {
   role      = "User"
 }
 
-
 resource "opsgenie_user" "ross" {
     username  = "amnuhu58@gmail.com"
     full_name = "Rozay "
