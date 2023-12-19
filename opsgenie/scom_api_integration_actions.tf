@@ -1,5 +1,5 @@
 # resource "opsgenie_integration_action" "scom_action" {
-#   integration_id = opsgenie_api_integration.scom_integration.id
+#   integration_id = opsgenie_api_integration.scom_integration[0].id
 
 #   create {
 #     name = "create action"
