@@ -15,16 +15,3 @@ variable "scom_enabled" {
   type        = bool
   #   default = true
 }
-
-
-variable "name" {
-  type        = string
-  description = "Name of the Team"
-}
-
-
-variable "enabled" {
-  type        = bool
-  description = "Enable and Disable integration"
-  default     = false
-}
